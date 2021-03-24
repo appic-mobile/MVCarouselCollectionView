@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28C4F11D260B859D00B1FBC9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 28C4F11C260B859D00B1FBC9 /* Podfile */; };
 		4B33AE23E2ED9B99E8045690 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9EBC25E2AD39AE8ADAA403 /* libPods.a */; };
 		654A75AC1A78DF2000F0E6D2 /* MVCarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654A75A81A78DF2000F0E6D2 /* MVCarouselCell.swift */; };
 		654A75AD1A78DF2000F0E6D2 /* MVCarouselCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654A75A91A78DF2000F0E6D2 /* MVCarouselCell.xib */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28C4F11C260B859D00B1FBC9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		55281CDEE9541924F68E5F5B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		654A758C1A78DE8D00F0E6D2 /* MVCarouselCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MVCarouselCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		654A75901A78DE8D00F0E6D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 		654A75821A78DE8D00F0E6D2 = {
 			isa = PBXGroup;
 			children = (
+				28C4F11C260B859D00B1FBC9 /* Podfile */,
 				654A758E1A78DE8D00F0E6D2 /* MVCarouselCollectionView */,
 				654A758D1A78DE8D00F0E6D2 /* Products */,
 				E3376E6E9079D44B1BBCEEAB /* Pods */,
@@ -149,6 +152,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 654A75821A78DE8D00F0E6D2;
@@ -166,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C4F11D260B859D00B1FBC9 /* Podfile in Resources */,
 				654A75AD1A78DF2000F0E6D2 /* MVCarouselCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +326,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -340,6 +346,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
